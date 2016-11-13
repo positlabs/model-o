@@ -1,6 +1,10 @@
 # model-o
-Simple observable model. Fires change events when values are assigned.
 
+Simple observable model. Fires change events when values are assigned. Get excited!
+
+[View the demo](https://positlabs.github.io/model-o/)
+
+## usage
 
 ```javascript
 
@@ -31,6 +35,5 @@ Simple observable model. Fires change events when values are assigned.
 
 	model.on('arr', onChange)
 	model.arr = model.arr.concat('extra')
-
 
 ```
