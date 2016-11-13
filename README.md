@@ -2,6 +2,10 @@
 
 Simple observable model. Fires change events when values are assigned. Get excited!
 
+[![npm version](https://badge.fury.io/js/model-o.svg)](https://badge.fury.io/js/model-o)
+
+`npm install --save model-o`
+
 [View the demo](https://positlabs.github.io/model-o/)
 
 ## usage
