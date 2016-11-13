@@ -1,0 +1,29 @@
+{
+  "name": "model-o",
+  "version": "1.0.0",
+  "description": "Simple observable model. Fires change events when values are assigned.",
+  "main": "dist/model-o.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify --standalone Model_O ./model-o.js -o ./dist/model-o.min.js -t [ babelify --presets [ es2016 ] ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/positlabs/model-o.git"
+  },
+  "keywords": [
+    "data",
+    "model"
+  ],
+  "author": "Josh Beckwith <josh@positlabs.com> (https://github.com/positlabs)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/positlabs/model-o/issues"
+  },
+  "homepage": "https://github.com/positlabs/model-o#readme",
+  "devDependencies": {
+    "babel-preset-es2016": "^6.16.0",
+    "babelify": "^7.3.0",
+    "wolfy87-eventemitter": "^5.1.0"
+  }
+}
