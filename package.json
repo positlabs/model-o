@@ -1,11 +1,11 @@
 {
   "name": "model-o",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple observable model. Fires change events when values are assigned.",
   "main": "dist/model-o.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify --standalone Model_O ./model-o.js -o ./dist/model-o.min.js -t [ babelify --presets [ es2015 ] ]"
+    "build": "browserify -t [ babelify --presets [ es2015 ] ] --standalone Model_O ./model-o.js | uglifyjs -c > ./dist/model-o.min.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
+    "minifyify": "^7.3.4",
     "wolfy87-eventemitter": "^5.1.0"
   }
 }
