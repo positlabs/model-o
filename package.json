@@ -1,6 +1,6 @@
 {
   "name": "model-o",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple observable model. Fires change events when values are assigned.",
   "main": "dist/model-o.min.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/positlabs/model-o#readme",
   "devDependencies": {
-    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
     "wolfy87-eventemitter": "^5.1.0"
   }
