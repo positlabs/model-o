@@ -1,6 +1,6 @@
 {
   "name": "model-o",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Simple observable model. Fires change events when values are assigned.",
   "main": "dist/model-o.min.js",
   "scripts": {
