@@ -4,9 +4,9 @@
 
 */
 
-const EventEmitter = require('wolfy87-eventemitter')
+const Events = require('events').EventEmitter
 
-class Model_O extends EventEmitter {
+class Model_O extends Events {
 	
 	constructor(obj){
 		super()
